@@ -63,7 +63,7 @@ The trained model was exported in TensorFlow → Keras format and used with a Py
 
 ## Sample Output
 Predicted Class: Strawberry
-Confidence: 99%
+Confidence: 94%
 
 ---
 
