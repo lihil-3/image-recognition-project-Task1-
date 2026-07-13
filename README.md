@@ -1,44 +1,74 @@
-# Image Recognition Model using Teachable Machine
+# Fruit Image Recognition using Teachable Machine
 
 ## Project Description
-This project uses Google's Teachable Machine to train an image recognition model that classifies three types of fruits:
 
-- Strawberry
-- Raspberry
-- Cherry
+This project is an image classification model created using Google Teachable Machine. The model was trained to recognize three different fruit classes:
 
-The trained model was exported in TensorFlow → Keras format and used in a Python script to predict the class of an input image.
+- 🍓 Strawberry
+- ❤️ Raspberry
+- 🍒 Cherry
 
-## Dataset
-The model was trained using images of:
-- Strawberry
-- Raspberry
-- Cherry
+The trained model was exported in TensorFlow → Keras format and used with a Python script to classify input images.
 
-Each class contains multiple images collected and used for training.
+---
 
 ## Tools Used
-- Teachable Machine by Google
+
+- Google Teachable Machine
 - TensorFlow / Keras
 - Python
 - NumPy
 - Pillow
+- Google Colab
+
+---
+
+## Project Steps
+
+1. Created an Image Project in Google Teachable Machine.
+2. Added three classes:
+   - Strawberry
+   - Raspberry
+   - Cherry
+3. Uploaded multiple training images for each class.
+4. Trained and evaluated the model.
+5. Exported the model in TensorFlow → Keras format.
+6. Loaded the model in Python using Google Colab.
+7. Tested the model using three different images.
+
+---
 
 ## Files
-- predict.py : Python script for image classification.
-- keras_model.h5 (or SavedModel folder) : Trained model.
+
+- task1.py : Python script for loading the model and making predictions.
+- keras_model.h5 : Trained Keras model.
 - labels.txt : Class labels.
-- ss.jpg : Sample image for prediction.
+- Ct.jpg : Cherry test image.
+- Rt.jpg : Raspberry test image.
+- ss.jpg : Strawberry test image.
+
+---
 
 ## How to Run
 
-------
-   
+1. Open the project in Google Colab.
+2. Upload all project files to the Colab session.
+3. Install the required libraries (if needed):
+!pip install tensorflow pillow numpy
+
+4. Run the Python script (`task1.py`) or execute all notebook cells.
+5. The program will display the predicted class and confidence score for the selected image.
+
+---
+
 ## Sample Output
 Predicted Class: Strawberry
-Confidence: 94%
+Confidence: 99%
+
+---
 
 ## Author
 
 Hind Almutairi
+
 Computer Science Student
