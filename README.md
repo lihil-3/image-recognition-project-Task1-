@@ -4,9 +4,9 @@
 
 This project is an image classification model created using Google Teachable Machine. The model was trained to recognize three different fruit classes:
 
-- 🍓 Strawberry
-- ❤️ Raspberry
-- 🍒 Cherry
+-  Strawberry
+-  Raspberry
+-  Cherry
 
 The trained model was exported in TensorFlow → Keras format and used with a Python script to classify input images.
 
