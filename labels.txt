@@ -1,0 +1,3 @@
+0 Strawberry
+1 Raspberry
+2 Cherry
